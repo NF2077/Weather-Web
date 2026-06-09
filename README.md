@@ -28,4 +28,4 @@ Sebelum menjalankan proyek ini secara lokal, pastikan kamu sudah memiliki:
 
 1. **Clone Repositori Ini**
    ```bash
-   git clone [https://github.com/username-kamu/nama-repositori-weather.git](https://github.com/username-kamu/nama-repositori-weather.git)
+   git clone [https://github.com/NF2077/Weather-Web.git](https://github.com/NF2077/Weather-Web.git)
