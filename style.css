@@ -1,6 +1,3 @@
-/* ==========================================================================
-   RESET & BASE STYLES
-   ========================================================================== */
 * {
     margin: 0;
     padding: 0;
@@ -18,9 +15,6 @@ body {
     color: #ffffff;
 }
 
-/* ==========================================================================
-   WEATHER CARD CONTAINER
-   ========================================================================== */
 .card {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
@@ -34,15 +28,12 @@ body {
     text-align: center;
 }
 
-/* ==========================================================================
-   SEARCH BOX SECTION
-   ========================================================================== */
 .search-box {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .search-box input {
@@ -84,23 +75,22 @@ body {
     transform: translateY(-2px);
 }
 
-.search-box button:active {
-    transform: translateY(0);
+#weather-icon {
+    width: 100px;
+    height: 100px;
+    margin-top: -10px;
+    margin-bottom: -10px;
 }
 
-/* ==========================================================================
-   WEATHER INFO DISPLAY
-   ========================================================================== */
 .weather-info h2 {
     font-size: 28px;
     font-weight: 500;
-    margin-bottom: 5px;
 }
 
 .weather-info h1 {
     font-size: 64px;
     font-weight: 700;
-    margin: 15px 0;
+    margin: 5px 0;
 }
 
 .weather-desc {
@@ -117,9 +107,6 @@ hr {
     margin: 25px 0;
 }
 
-/* ==========================================================================
-   DETAILS SECTION (HUMIDITY & WIND)
-   ========================================================================== */
 .details {
     display: flex;
     justify-content: space-between;
